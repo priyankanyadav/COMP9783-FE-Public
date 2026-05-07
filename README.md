@@ -1,61 +1,16 @@
-# COMP9783-FE-Public 🚀
+# React + Vite
 
-## 👩‍💻 Created By
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Priyanka Yadav
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 📌 About This Project
+## React Compiler
 
-This repository is created for **COMP9783 Front-End Development Lab**.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-It demonstrates:
+## Expanding the ESLint configuration
 
-- GitHub repository setup
-- Version control basics
-- Markdown formatting
-- React project setup
-
----
-
-## 🛠️ Technologies Used
-
-- GitHub
-- GitHub Desktop
-- Vite
-- React
-- Node.js
-
----
-
-## 📋 Features
-
-- Repository initialization
-- README formatting using Markdown
-- Commit and branch workflow
-
----
-
-## 🔥 Example Formatting
-
-### Bold Text
-
-**This is bold text**
-
-### Italic Text
-
-_This is italic text_
-
-### List Example
-
-1. Create repo
-2. Clone repo
-3. Add README
-4. Commit changes
-
----
-
-## 📌 Author
-
-**Priyanka Yadav**
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
